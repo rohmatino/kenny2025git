@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^leet\.pics$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.leet\.pics$
+RewriteRule ^/?$ "https\:\/\/www\.cocoro\.tv\/" [R=301,L]
+
